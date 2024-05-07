@@ -40,12 +40,7 @@ export default function BudgetForm() {
             >
                 Define budget
             </button>
-            {/* <input
-             type="submit"
-             value={"Define budget"}
-             className="bg-blue-600 hover:bg-blue-700 cursor-pointer w-full p-2 text-white font-black uppercase text-center disabled:opacity-40" 
-             disabled = {isValid}
-            /> */}
+    
         </form>
     )
 }

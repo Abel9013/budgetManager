@@ -44,8 +44,7 @@ export default function ExpenseDetail({expense}:ExpenseDetailProps) {
   )
   return (
     <SwipeableList>
-      <SwipeableListItem 
-        maxSwipe={0.2} 
+      <SwipeableListItem  
         leadingActions={leadingActions()} 
         trailingActions={trailingActions()} 
       >
